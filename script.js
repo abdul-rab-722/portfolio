@@ -99,8 +99,8 @@ window.addEventListener("scroll", updateActiveMenu);
 const scrollReveal = ScrollReveal({
     distance: "50px",    // How far the element moves during animation
     duration: 1500,      // Animation duration in milliseconds
-    delay: 50,          // Delay before the animation starts
-    reset: true          // Reset the animation when scrolling back
+    delay: 40,          // Delay before the animation starts
+    // reset: true          // Reset the animation when scrolling back
 });
 
 // Reveal from the top
@@ -129,13 +129,11 @@ scrollReveal.reveal('.footer, .cta-button', {
 // Fade in without movement
 scrollReveal.reveal('.portfolio-gallery, .about-content, .myfooter', {
     opacity: 0,          // Element starts completely transparent
-    duration: 1500       // Longer duration for a smoother fade-in effect
 });
 
 // Scale up animation
 scrollReveal.reveal('.portfolio-img', {
     scale: 0.85,         // Elements scale up from 85% to their original size
-    duration: 1500
 });
 
 
@@ -143,7 +141,6 @@ scrollReveal.reveal('.portfolio-img', {
 scrollReveal.reveal('.button, .skill, .contactsItem, .servicesItem, .icon-contacts, .icon-services, .bg-icon', {
     scale: 0.9,          // Slight scale up
     rotate: { x: 0, y: 80, z: 0 }, // Rotate around the Y-axis
-    duration: 1500,
     interval: 80        // Delay between revealing each grid item
 });
 

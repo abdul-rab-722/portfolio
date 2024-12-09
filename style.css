@@ -500,6 +500,11 @@ section{
     font-weight: 500;
 }
 
+.about-content .right-column .company-description img{
+    height: 100px;
+    width: 100%;
+}
+
 /* .about-btn{
     margin: .8rem 0;
 }
