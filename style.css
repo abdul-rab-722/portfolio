@@ -129,13 +129,6 @@ ul.navlist{
     opacity: 0;
 }
 
-/* .main-text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-} */
 
 section{
     padding: 40px 8%;
@@ -302,23 +295,6 @@ section{
     justify-content: center;
 }
 
-/* landing page image up down animation 
-.img-col {
-    animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
-    position: relative;
-    width: 450px;
-    height: 450px;
-    z-index: 10;
-  }
-  
-  @keyframes up-down {
-    0% {
-      transform: translateY(5px);
-    }
-    100% {
-      transform: translateY(-5px);
-    }
-  } */
 
 .img-hero{
     position: relative;
@@ -336,64 +312,6 @@ section{
     z-index: 10; */
 } 
 
-/* .rotate-text{
-    position: absolute;
-    top: 4%;
-    left: -53px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    padding: 2rem;
-}
-
-.rotate-text span{
-    position: relative;
-    width: 442px;
-    height: 442px;
-    background: red;
-    border: 6px solid #eaeef0;
-    border-radius: 50%;
-    z-index: 1;
-    overflow: hidden;
-}
-
-.rotate-text span::before{
-    content: "";
-    position: absolute;
-    inset: 20px;
-    background: #ff00bf;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-.rotate-text span i{
-    position: absolute;
-    inset: 0;
-    background: var(--gradient-color-bg);
-    filter: blur(5px);
-    animation: animate 2s linear infinite;
-}
-
-
-.rotate-text .text{
-    position: absolute;
-    width: 490px;
-    height: 490px;
-    background: #f2f6fb;
-    border-radius: 50%;
-    box-shadow: 0 1px 6px 5.94px rgba(0,0,0,0.2);
-    animation: rotateText 30s linear infinite;
-} 
-
-.text b{
-    position: absolute;
-    transform-origin: 0 247px;
-    display: block;
-    top: 0;
-    left: 50%;
-    font-size: 1.2rem;
-} */
 
 /* ==================== About section css code ============================ */
 
@@ -449,26 +367,6 @@ section{
     gap: 1rem;
 }
 
-/* .about .about-img{
-    position: relative;
-}
-
-.about .about-img .aboutHero{
-    width: 40vw;
-    height: auto;
-}
-
-.about-img .ring{
-    position: absolute;
-    top: 22%;
-    right: 1%;
-}
-
-.about-img .circle{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-} */
 
 
 .about-content{
@@ -504,45 +402,6 @@ section{
     height: 100px;
     width: 100%;
 }
-
-/* .about-btn{
-    margin: .8rem 0;
-}
-
-.about-btn button,.cvContent a{
-    background: var(--gradient-white-bg2);
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    font-size: 1rem;
-    font-weight: 500;
-    color: #000;
-    box-shadow: rgba(60,64,67,0.3)0px 1px 2px 0,
-                  rgba(60,64,67,0.15)0px 2px 6px 2px;
-    margin-right: .5rem;
-    cursor: pointer;
-    transition: all .3s ease;
-}
-
-
-.about-btn button.active{
-    background: var(--gradient-color-bg);
-    color: #ffff;
-} */
-
-
-
-/* .content-btn > .content:not(:first-child){
-    display: none;
-}
-
-.about-btn button:hover{
-    box-shadow: var(--hover-box-shadow);
-}
-
-.cvContent{
-    margin-top: 1.5rem;
-} */
 
 /* ==================== Services section css code ============================ */
 .services{
@@ -597,16 +456,6 @@ section{
     background: var(--main-color);
 }
 
-/* .icon-services span{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: -5px;
-    top: -5px;
-    background: var(--gradient-color-bg);
-    border-radius: 50%;
-    animation: animate 1s linear infinite;
-} */
 
 .servicesItem h3{
     margin: 1rem 0 0.5rem;
@@ -668,49 +517,6 @@ section{
 .services .text-box .btn{
     padding: 10px 20px;
 }
-
-
-/* .services .showcase .ring{
-    width: 100px;
-    height: auto;
-    position: absolute;
-    top: 2%;
-    left: -3%;
-}
-
-.services .showcase .circle{
-    position: absolute;
-    width: 70px;
-    height: auto;
-    top: 2%;
-    right: 6%;
-    filter: blur(3px);
-}
-
-.services .showcase .circle2{
-    position: absolute;
-    width: 40px;
-    height: auto;
-    filter: blur(3px);
-}
-
-.services .showcase .circle3{
-    position: absolute;
-    width: 70px;
-    height: auto;
-    filter: blur(3px);
-    bottom: 36%;
-    left: 22%;
-}
-
-.services .showcase .half-ring{
-    position: absolute;
-    width: 120px;
-    height: auto;
-    bottom: 4%;
-    right: 6%;
-} */
-
 
 /* ==================== Projects section css code ============================ */
 .fillter-buttons{
@@ -899,66 +705,6 @@ section{
     filter: blur(1px);
 }
 
-
-/* ==================== Contact section css code ============================ */
- 
-/*.contactSkills{
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-}
-
-.contact-info,.skills{
-    width: 100%;
-    background: var(--gradient-white-bg2);
-    box-shadow: rgba(0,0,0,0.18)0px 2px 4px;
-    padding: 1rem;
-    border-radius: 10px;
-}
-
-
-.contact-info input,
-.contact-info form textarea{
-    width: 100%;
-}
-
-.contact-info form input,
-.contact-info form textarea{
-    width: 100%; 
-    padding: .8rem;
-    border: 2px solid #e8e1e1;
-    margin: .5rem 0;
-    background: #e8f1f9;
-    border-radius: 5px;
-    outline: none;
-    transition: .3s;
-}
-
-.contact-info form .input-box{
-    display: flex;
-    justify-content: space-between;
-}
-
-.input-box input{
-    width: 49%;
-}
-
-form input:focus,form textarea:focus{
-    filter: brightness(100%);
-    background: #d2e9ff;
-    border: 2px solid #f8caca;
-}
-
-form textarea{
-    resize: none;
-}
-
-form .btn{
-    padding: 15px 20px;
-    cursor: pointer;
-    border: none;
-} */
-
 /* ==================== Skills section css code ============================ */
 
 /* .skillBox{
@@ -1046,22 +792,6 @@ h2.counter span{
     position: relative;
 }
 
-/* .main-text{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.main-text .heading{
-    color: var(--main-color);
-}
-
-.main-text span{
-    color: var(--font-color);
-    font-weight: 200;
-    text-transform: uppercase;
-} */
-
 .allContacts{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(220px , auto));
@@ -1117,14 +847,6 @@ h2.counter span{
     font-size: .9rem;
     color: var(--font-color);
 }
-
-/* .question img{
-    width: 320px;
-    height: 320px;
-    margin: 0 3rem 0;
-    z-index: 10;
-} */
-
 
 .myfooter {
     text-align: center;
