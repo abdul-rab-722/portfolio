@@ -137,12 +137,12 @@ section{
 .main-text{
     width: 100%;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .main-text .heading{
-    margin-bottom: .5rem;
-    font-size: 3rem;
+    margin-bottom: .3rem;
+    font-size: 2rem;
     color: var(--main-color);
 }
 

@@ -53,7 +53,7 @@ window.addEventListener("scroll", updateActiveMenu);
 const scrollReveal = ScrollReveal({
     distance: "50px",    // How far the element moves during animation
     duration: 1500,      // Animation duration in milliseconds
-    delay: 40,          // Delay before the animation starts
+    delay: 20,          // Delay before the animation starts
     // reset: true          // Reset the animation when scrolling back
 });
 
@@ -65,7 +65,7 @@ scrollReveal.reveal('.hero-info, .main-text, .proposal', {
 // Reveal from the bottom
 scrollReveal.reveal('.footer, .cta-button', {
     origin: "bottom",    // Animation starts from the bottom
-    interval: 80        // Slightly faster interval for these elements
+    interval: 60        // Slightly faster interval for these elements
 });
 
 
@@ -84,12 +84,12 @@ scrollReveal.reveal('.portfolio-img', {
 scrollReveal.reveal('.button, .skill, .contactsItem, .servicesItem, .icon-contacts, .icon-services, .bg-icon', {
     scale: 0.9,          // Slight scale up
     rotate: { x: 0, y: 80, z: 0 }, // Rotate around the Y-axis
-    interval: 80        // Delay between revealing each grid item
+    interval: 60        // Delay between revealing each grid item
 });
 
 // Staggered reveal for a grid layout
 scrollReveal.reveal('.grid-item', {
-    interval: 80,       // Delay between revealing each grid item
+    interval: 60,       // Delay between revealing each grid item
     origin: "bottom"
 });
 
