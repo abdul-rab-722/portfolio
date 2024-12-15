@@ -53,7 +53,7 @@ window.addEventListener("scroll", updateActiveMenu);
 const scrollReveal = ScrollReveal({
     distance: "50px",    // How far the element moves during animation
     duration: 1500,      // Animation duration in milliseconds
-    delay: 20,          // Delay before the animation starts
+    delay: 30,          // Delay before the animation starts
     // reset: true          // Reset the animation when scrolling back
 });
 
@@ -62,26 +62,26 @@ scrollReveal.reveal('.hero-info, .main-text, .proposal', {
     origin: "top",       // Animation starts from the top
 });
 
+
 // Reveal from the bottom
 scrollReveal.reveal('.footer, .cta-button', {
     origin: "bottom",    // Animation starts from the bottom
     interval: 60        // Slightly faster interval for these elements
 });
 
-
-// Fade in without movement
-scrollReveal.reveal('.portfolio-gallery, .about-content, .myfooter', {
-    opacity: 0,          // Element starts completely transparent
+// Reveal from the left
+scrollReveal.reveal('.home, .about, .services, .portfolio, .blog, .down-box, .contacts', {
+    origin: "left",    // Animation starts from the left
+    interval: 60        // Slightly faster interval for these elements
 });
 
-// Scale up animation
-scrollReveal.reveal('.portfolio-img', {
-    scale: 0.85,         // Elements scale up from 85% to their original size
-});
-
+// // Fade in without movement
+// scrollReveal.reveal('.button, .portfolio-gallery, .about-content, .myfooter', {
+//     opacity: 0,          // Element starts completely transparent
+// });
 
 // Combined effects (e.g., rotate and scale)
-scrollReveal.reveal('.button, .skill, .contactsItem, .servicesItem, .icon-contacts, .icon-services, .bg-icon', {
+scrollReveal.reveal('.skill, .contactsItem, .servicesItem, .icon-contacts, .icon-services, .bg-icon', {
     scale: 0.9,          // Slight scale up
     rotate: { x: 0, y: 80, z: 0 }, // Rotate around the Y-axis
     interval: 60        // Delay between revealing each grid item
@@ -140,9 +140,9 @@ var mixer = mixitup('.portfolio-gallery',{
     selectors: {
         target: '.portfolio-box'
     },
-    // animation: {
-    //     duration: 500
-    // }
+    animation: {
+        duration: 1200
+    }
 });
 
 
