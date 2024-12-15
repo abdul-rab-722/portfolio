@@ -211,7 +211,7 @@ function skillsCounter(){
     skillsPlayed = true;
     sk_counters.forEach((counter,i)=>{
         let target = +counter.dataset.target;
-        let strokeValue = 765 - 765 * (target / 100);
+        let strokeValue = 1000 - 1000 * (target / 100);
 
         progress_bars[i].style.setProperty("--target",strokeValue);
 
