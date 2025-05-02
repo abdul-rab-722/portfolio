@@ -42,7 +42,8 @@
     <section class="home" id="home">
         <div class="hero-info">
             <h3>Welcome!</h3>
-            <h1>Hi I'm <span>A</span>bdul <span>R</span>ab</h1>
+            <h1>Hi I'm</h1>
+            <h1><span>A</span>bdul <span>R</span>ab</h1>
 
             <div class="text-animate">
                 <h2>Data Scientist</h2>
@@ -376,7 +377,7 @@
                     <span></span>
                 </div>
                 <h3>Model Deployment</h3>
-                <p>Deployed ML models using Docker and Kubernetes for scalable and reliable performance. Automated CI/CD pipelines with GitLab CI/CD and AWS to ensure seamless updates. Monitored model performance using Prometheus and Grafana.</p>
+                <p>Containerized ML model with Docker and implemented CI/CD pipeline with Github Actions for Automating an end-to-end deployment using Blue-Green and Rolling strategy on Auto Scaling Group via Code Deploy. Monitored using Prometheus & Grafana.</p>
                 <a href="#services" class="readMore">Read More</a>
             </div>
         </div>
@@ -406,6 +407,29 @@
         </div>
 
         <div class="portfolio-gallery">
+
+            <div class="portfolio-box mix machine-learning">
+                <div class="portfolio-content">
+                    <h3>Uber Demand Prediction </h3>
+                    <p>Designed a model to predict the number of Uber pickup demand for every neighboring regions in 15 minutes of interval. Applied EWMA smoothing to historical time-series data. Trained a Linear Regression model achieving 7.93% MAPE on test data. Automated end-to-end deployment on Auto Scaling Group with AWS Code Deploy.</p>
+                    <a href="https://github.com/abdul-rab-722/Uber-Demand-Prediction-" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/uber-1.jpeg" alt="Cricket Score Prediction">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix machine-learning">
+                <div class="portfolio-content">
+                    <h3>Swiggy Delivery Time Prediction </h3>
+                    <p>Developed a machine learning model to predict time required to deliver food using Stacking Regressor algorithm. Achieved an MAE of 3.06 minutes with 85% of r2 score on testing data. Containerized the ML model and implemented a CI/CD pipeline for automated deployment on Auto Scaling Group with AWS Code Deploy.</p>
+                    <a href="https://github.com/abdul-rab-722/Swiggy-Delivery-Time-Prediction" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/swiggy-2.jpg" alt="Cricket Score Prediction">
+                </div>
+            </div>
+
             <div class="portfolio-box mix machine-learning">
                 <div class="portfolio-content">
                     <h3>Cricket Score Prediction </h3>
@@ -431,6 +455,17 @@
 
             <div class="portfolio-box mix nlp">
                 <div class="portfolio-content">
+                    <h3>YT Sentiment Analysis</h3>
+                    <p>Built a Chrome plug-in to extract and analyze YouTube comments, delivering real-time sentiment insights.Implemented LightGBM model with spaCy and TF-IDF for sentiment classification, achieving 87% F-1 score on testing data. Built CI/CD pipeline to containerize a ML model with a Flask API, and deployed on AWS Auto Scaling Group. </p>
+                    <a href="https://github.com/abdul-rab-722/Youtube-Comment-Sentiment-Analysis" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/youtube-2.jpeg" alt="Credit Risk Analysis">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix nlp">
+                <div class="portfolio-content">
                     <h3>Olympic Data Analysis</h3>
                     <p>Analyzed historical Olympic data to uncover trends in medal counts, athlete demographics, and performance patterns across different countries and sports.
                         Created visualizations showing trends in participation by gender and sport over decades.</p>
@@ -440,6 +475,7 @@
                     <img src="img/portfolio/olympic1.jpg" alt="Credit Risk Analysis">
                 </div>
             </div>
+
         
             <div class="portfolio-box mix deep-learning">
                 <div class="portfolio-content">
